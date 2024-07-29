@@ -1,0 +1,86 @@
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .user-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .user-card h3 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .user-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .user-card a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .user-card a:hover {
+    text-decoration: underline;
+  }
+
+  /* src/UserList.css */
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px; /* Adds space between cards */
+  }
+  
+  .user-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 280px;
+    text-align: center;
+    transition: box-shadow 0.3s, transform 0.3s;
+  }
+  
+  .user-card:hover {
+    color:#000F08;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
+  
+  .user-card h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .user-card p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .user-card a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .user-card a:hover {
+    color:#136F63;
+    text-decoration: underline;
+  }
+  
